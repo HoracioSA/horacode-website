@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    max-width: 470px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+}
+.container section.form{
+    width: 100%;
+    height: 384px;
+    padding: 96px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+} 
+.container section.form h1{
+    color:#FFFF;
+   align-content: center;
+    
+}
+.container section.form form{
+    margin-top: 24px;
+}
+.container .content form h3{
+    margin-top: 10px;
+    color: violet;
+    font-size: 16px;
+}
+.container section.form form h3{
+    color: #97A5CE;
+    font-size: medium;
+}
+.container section.form form a{
+   display: flex;
+   align-items: center;
+   margin-top: 16px;
+   color: violet;
+   font-size: 18px;
+   text-decoration: none;
+   font-weight: 500;
+   transition: opacity 0.2s; 
+
+}
+.container section.form form a:hover{
+    opacity: 0.8s;
+}
+.container section.form form a svg{
+    margin-right: 8px ;
+}
