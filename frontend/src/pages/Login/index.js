@@ -5,6 +5,7 @@ import {FiLogIn} from 'react-icons/fi'
 
 export default function Login(){
     return(
+        <div className="background">
         <div className="container">
         <section className="form">
            <h1>Login</h1>
@@ -21,6 +22,7 @@ export default function Login(){
 
             </form>
         </section>
+    </div>
     </div>
     )
 }

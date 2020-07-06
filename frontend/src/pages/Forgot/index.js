@@ -5,6 +5,7 @@ import {FiArrowLeft} from 'react-icons/fi'
 
 export default function Forgot(){
     return(
+        <div className="background">
         <div className="container">
         <section className="form">
            <h1>Forgot</h1>
@@ -16,6 +17,7 @@ export default function Forgot(){
 
             </form>
         </section>
+    </div>
     </div>
     )
 }

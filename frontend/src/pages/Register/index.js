@@ -6,6 +6,7 @@ import {FiArrowLeft} from 'react-icons/fi'
 
 export default function Register(){
     return(
+        <div className="background">
         <div className="container">
         <section className="form">
            <h1>Register</h1>
@@ -20,6 +21,7 @@ export default function Register(){
 
             </form>
         </section>
+    </div>
     </div>
     )
 }

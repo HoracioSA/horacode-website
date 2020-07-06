@@ -7,9 +7,11 @@
 }
 body{
     font: 400 14px Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.background{
     background: #242E4C;
     background-image: url('../src/assets/BackgroundPeaces.svg');
-    -webkit-font-smoothing: antialiased;
 }
 input, button, textarea h1{
     font: 400 14px Roboto, sans-serif;

@@ -5,6 +5,7 @@ import {FiArrowLeft} from 'react-icons/fi'
 
 export default function Reset(){
     return(
+        <div className="background">
         <div className="container">
         <section className="form">
            <h1>Reset Password</h1>
@@ -18,6 +19,7 @@ export default function Reset(){
 
             </form>
         </section>
+    </div>
     </div>
     )
 }
